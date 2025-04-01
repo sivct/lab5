@@ -2,6 +2,8 @@
 
 #include "Print_Array.h"
 #include "Fill_Arr.h"
+#include "Product_Of_Even_Nums.h"
+#include "Sum_Between_Zeros.h"
 
 void InputSize(int32_t&);
 
@@ -16,7 +18,8 @@ int main() {
 
 	while (true) {
 		std::cout << "[1]PrintArray, вывести элементы массива на консоль; \n[2]Ввести элементы массива через консоль; \n[3]Заполнение массива рандомными элементами;\n"
-			<< "[5]Очистить экран; \n[6]Выход.\n";
+			<< "[4]Произведение элементов массива с четными номерами; \n[5]Сумма элементов массива, расположенных между первым и последним нулевыми элементами; \n"
+			<< "[6]Очистить экран; \n[7]Выход.\n";
 		std::cout << "Номер задачи == ";
 		std::cin >> switch_on;
 
@@ -36,10 +39,16 @@ int main() {
 				InputSize(size);
 				RandFillArr(arr, size);
 				break;
+			case '4':
+				std::cout << "Произведение элементов массива с четными номерами равно " << ProductOfEvenNums(arr, size) << std::endl;
+				break;
 			case '5':
-				CLS();
+				std::cout << "Сумма элементов массива, расположенных между первым и последним нулевыми элементами ровна " << SumBetweenZeros(arr, size) << std::endl;
 				break;
 			case '6':
+				CLS();
+				break;
+			case '7':
 				return 0;
 			}
 		}

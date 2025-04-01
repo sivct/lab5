@@ -24,12 +24,24 @@
     <ClCompile Include="Print_Array.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Product_Of_Even_Nums.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Sum_Between_Zeros.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Fill_Arr.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Print_Array.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Product_Of_Even_Nums.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Sum_Between_Zeros.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
