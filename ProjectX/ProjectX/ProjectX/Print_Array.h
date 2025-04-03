@@ -2,7 +2,14 @@
 #define PRINT_ARRAY_H
 
 #include <iostream>
-void PrintArray(int32_t*, int32_t&);
+
+template<class T>
+void PrintArray(T* arr, int32_t& size) {
+	for (int16_t i{}; i < size; ++i) {
+		std::cout << arr[i] << ' ';
+	}
+}
+
 void CLS();
 
 #endif

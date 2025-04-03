@@ -33,6 +33,9 @@
     <ClCompile Include="Negative_Are_First.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="CreateDinArr.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Fill_Arr.h">
@@ -48,6 +51,9 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Negative_Are_First.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateDinArr.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

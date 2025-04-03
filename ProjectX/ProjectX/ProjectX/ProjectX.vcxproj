@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CreateDinArr.cpp" />
     <ClCompile Include="Fill_Arr.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Negative_Are_First.cpp" />
@@ -135,6 +136,7 @@
     <ClCompile Include="Sum_Between_Zeros.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CreateDinArr.h" />
     <ClInclude Include="Fill_Arr.h" />
     <ClInclude Include="Negative_Are_First.h" />
     <ClInclude Include="Print_Array.h" />
