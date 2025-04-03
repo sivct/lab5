@@ -129,12 +129,14 @@
   <ItemGroup>
     <ClCompile Include="Fill_Arr.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Negative_Are_First.cpp" />
     <ClCompile Include="Print_Array.cpp" />
     <ClCompile Include="Product_Of_Even_Nums.cpp" />
     <ClCompile Include="Sum_Between_Zeros.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Fill_Arr.h" />
+    <ClInclude Include="Negative_Are_First.h" />
     <ClInclude Include="Print_Array.h" />
     <ClInclude Include="Product_Of_Even_Nums.h" />
     <ClInclude Include="Sum_Between_Zeros.h" />
